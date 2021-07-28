@@ -1,0 +1,77 @@
+Cash Register Algorithm
+
+Complete each of the following five items to create your algorithm.
+
+1. List all of the input(s) and output(s).
+
+Inputs: 
+Amount(in cents)
+
+Outputs:
+Specific coins needed for input amount-
+Number of quarters, dimes, nickles, and pennies
+
+2. Figure out the computations needed to calculate outputs from the input.
+
+   quarters: amount / 25 = quarters ; amount % 25 = amount_1
+   
+   dimes: amount_1 / 10 = dimes ;  amount_1 % 10 = amount_2
+   
+   nickels: amount_2 / 5 = nickels ; amount_2 % 5 = amount_3 
+   
+   pennies: amount_3 / 1 = pennies ; amount_3 % 1 = amount_4
+   
+
+3. Write all of the variable declarations needed for your inputs, outputs 
+   and computational results.
+   
+   int q     int amount    
+   int d     int amount1
+   int n     int amount2
+   int p     int amount3
+   
+   
+  
+
+4. Translate the computations described into Java expressions and statements.
+
+   int amount = scan.nextInt();
+   
+   quarters:
+   int q = amount / 25;
+   int amount1 = amount % 25;
+   
+   dimes:
+   int d = amount_1 / 10;
+   int amount2 = amount1 % 10;
+   
+   nickels:
+   int n = amount_2 / 5;
+   int amount3 = amount2 % 5;
+   
+   pennies:
+   int p = amount_3 / 1;
+  
+   
+
+
+5. Describe your algorithm in pseudocode: how you will collect input, perform
+   calculations, and produce output.
+   
+Prompt user to input amount (in cents)
+
+Get input amount 
+
+For quarters, the quotient from the amount divided by the coin value yeilds the number of quarters needed in the specific amount
+while the remainder yeilds the cents left to be processed. 
+
+A new amount is used for every coin value, then it's divided by the corresponding value.
+
+if the quotient for amount / coin value = 1
+   print number of coin and singular form for specific coin
+else
+   print number of coin the plural form
+
+
+
+

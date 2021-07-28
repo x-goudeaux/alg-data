@@ -1,0 +1,25 @@
+For each of the following items, make the specified modification to your
+MyHelloWorld.java program, try to compile and run it, and indicate the
+Error Type you observe: syntax, runtime, logic or no error.
+
+After you report the Error Type you observed, fix the bug (undo the change
+you made) before moving on to the next item.
+
+1. Change the first println to print
+Error Type: no error
+	
+2. Change the second println to printing
+Error Type: syntax
+
+3. Remove the semicolon at the end of one of the statements
+Error Type: syntax
+
+4. Remove the last brace of the program
+Error Type: syntax
+	
+5. Change main to man
+Error Type: runtime
+
+6. Try something else horrible and describe what you did and observed
+Operation description: misspelled Hello and World
+Error Type: Logic

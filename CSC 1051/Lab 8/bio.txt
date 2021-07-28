@@ -1,0 +1,5 @@
+My name is Xavier Jibril Goudeaux.
+My current major is Cognitive Behavioral Neuroscience.
+I'm sure that I want a career in computer science...
+but i'm not so sure of what I want to do just yet.
+I'm still getting the hang of Python with some C++.

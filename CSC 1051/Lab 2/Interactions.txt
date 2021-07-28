@@ -1,0 +1,47 @@
+Enter each of the following expressions or statments 
+into the jGRASP Interactions tab and record the result 
+for each after the colon.
+
+4 + 3: 7
+3.1 * 0.2e-4: 6.2E-5
+
+a: interactions:1:1:1:1: cannot find symbol: variable a in current context
+    a
+
+b: interactions:1:1:1:1: cannot find symbol: variable b in current context
+    b
+
+c: interactions:1:1:1:1: cannot find symbol: variable c in current context
+    c
+
+14 / 3: 4
+14 % 3: 1
+143 / 60: 2
+143 % 60: 23
+8 / 12: 0 
+8 % 12: 8 
+
+1 + word: 
+interactions:1:5:1:8: cannot find symbol: variable word in current context
+    1 + word
+    
+1 + 1 + word:
+ interactions:1:9:1:12: cannot find symbol: variable word in current context
+    1 + 1 + word
+    
+word + 1 + 1: 
+interactions:1:1:1:4: cannot find symbol: variable word in current context
+    word + 1 + 1
+    
+sentence = word + word:
+ interactions:1:1:1:8: cannot find symbol: variable sentence in current context
+    sentence = word + word
+
+sentence = sentence + sentence: 
+interactions:1:1:1:8: cannot find symbol: variable sentence in current context
+    sentence = sentence + sentence
+    
+Math.sqrt(2): 1.4142135623730951
+Math.PI: 3.141592653589793    
+Math.sin(Math.PI): 1.2246467991473532E-16
+Math.round(2.8): 3
