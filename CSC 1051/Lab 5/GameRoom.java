@@ -3,6 +3,7 @@
 
 
 import java.util.Scanner;
+import package.GuessMyNumber;
 
 
 public class GameRoom{
